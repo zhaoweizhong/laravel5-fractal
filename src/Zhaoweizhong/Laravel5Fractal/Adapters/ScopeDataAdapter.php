@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal\Adapters;
+namespace Zhaoweizhong\Laravel5Fractal\Adapters;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Contracts\Support\Jsonable;

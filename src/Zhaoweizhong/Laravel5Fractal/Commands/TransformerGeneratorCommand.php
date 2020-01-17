@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal\Commands;
+namespace Zhaoweizhong\Laravel5Fractal\Commands;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Filesystem\Filesystem as File;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal;
+namespace Zhaoweizhong\Laravel5Fractal;
 
-use Cyvelnet\Laravel5Fractal\Adapters\ScopeDataAdapter;
+use Zhaoweizhong\Laravel5Fractal\Adapters\ScopeDataAdapter;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Pagination\LengthAwarePaginator;
 use League\Fractal\Manager;
@@ -88,7 +88,7 @@ class FractalServices
      * @param null                                                  $resourceKey
      * @param PaginatorInterface                                    $adapter
      *
-     * @return \Cyvelnet\Laravel5Fractal\Adapters\ScopeDataAdapter|mixed
+     * @return \Zhaoweizhong\Laravel5Fractal\Adapters\ScopeDataAdapter|mixed
      */
     public function collection(
         $items,
@@ -189,7 +189,7 @@ class FractalServices
      * @param \League\Fractal\TransformerAbstract|callable|\Closure $transformer
      * @param null                                                  $resourceKey
      *
-     * @return \Cyvelnet\Laravel5Fractal\Adapters\ScopeDataAdapter|mixed
+     * @return \Zhaoweizhong\Laravel5Fractal\Adapters\ScopeDataAdapter|mixed
      */
     public function item($item, $transformer, $resourceKey = null)
     {
@@ -242,7 +242,7 @@ class FractalServices
      *
      * @param ResourceInterface $resource
      *
-     * @return \Cyvelnet\Laravel5Fractal\Adapters\ScopeDataAdapter
+     * @return \Zhaoweizhong\Laravel5Fractal\Adapters\ScopeDataAdapter
      */
     private function scope(ResourceInterface $resource)
     {

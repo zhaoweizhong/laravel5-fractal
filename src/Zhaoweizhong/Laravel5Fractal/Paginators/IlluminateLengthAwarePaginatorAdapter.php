@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal\Paginators;
+namespace Zhaoweizhong\Laravel5Fractal\Paginators;
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use League\Fractal\Pagination\PaginatorInterface;

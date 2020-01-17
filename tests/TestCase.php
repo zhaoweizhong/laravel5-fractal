@@ -3,11 +3,11 @@
 class TestCase extends Orchestra\Testbench\TestCase
 {
     /**
-     * @return \Cyvelnet\Laravel5Fractal\FractalServices
+     * @return \Zhaoweizhong\Laravel5Fractal\FractalServices
      */
     protected function getService()
     {
-        return new \Cyvelnet\Laravel5Fractal\FractalServices(new \League\Fractal\Manager(), $this->app);
+        return new \Zhaoweizhong\Laravel5Fractal\FractalServices(new \League\Fractal\Manager(), $this->app);
     }
 
     /**

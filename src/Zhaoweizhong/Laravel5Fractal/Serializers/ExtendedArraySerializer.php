@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal\Serializers;
+namespace Zhaoweizhong\Laravel5Fractal\Serializers;
 
 use League\Fractal\Pagination\PaginatorInterface;
 use League\Fractal\Serializer\ArraySerializer;

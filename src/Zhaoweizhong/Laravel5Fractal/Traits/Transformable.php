@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal\Traits;
+namespace Zhaoweizhong\Laravel5Fractal\Traits;
 
 use Illuminate\Pagination\AbstractPaginator as Paginator;
 use League\Fractal\Pagination\PaginatorInterface;
@@ -33,7 +33,7 @@ trait Transformable
      * @param null                                                  $resourceKey
      * @param PaginatorInterface                                    $adapter
      *
-     * @return \Cyvelnet\Laravel5Fractal\Adapters\ScopeDataAdapter|mixed
+     * @return \Zhaoweizhong\Laravel5Fractal\Adapters\ScopeDataAdapter|mixed
      */
     public function collection($data, $transformer = null, $resourceKey = null, PaginatorInterface $adapter = null)
     {
@@ -95,7 +95,7 @@ trait Transformable
      * @param null $transformer
      * @param null $resourceKey
      *
-     * @return \Cyvelnet\Laravel5Fractal\Adapters\ScopeDataAdapter
+     * @return \Zhaoweizhong\Laravel5Fractal\Adapters\ScopeDataAdapter
      */
     public function item($data, $transformer = null, $resourceKey = null)
     {
@@ -124,7 +124,7 @@ trait Transformable
      * @param null                                               $resourceKey
      * @param \League\Fractal\Pagination\PaginatorInterface|null $adapter
      *
-     * @return \Cyvelnet\Laravel5Fractal\Adapters\ScopeDataAdapter|mixed
+     * @return \Zhaoweizhong\Laravel5Fractal\Adapters\ScopeDataAdapter|mixed
      */
     public function transform($data, $transformer = null, $resourceKey = null, PaginatorInterface $adapter = null)
     {
@@ -234,7 +234,7 @@ trait Transformable
     /**
      * get a fractal services instance.
      *
-     * @return \Cyvelnet\Laravel5Fractal\FractalServices
+     * @return \Zhaoweizhong\Laravel5Fractal\FractalServices
      */
     protected function getService()
     {

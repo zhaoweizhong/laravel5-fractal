@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal\Facades;
+namespace Zhaoweizhong\Laravel5Fractal\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

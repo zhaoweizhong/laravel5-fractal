@@ -1,8 +1,8 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal;
+namespace Zhaoweizhong\Laravel5Fractal;
 
-use Cyvelnet\Laravel5Fractal\Commands\TransformerGeneratorCommand;
+use Zhaoweizhong\Laravel5Fractal\Commands\TransformerGeneratorCommand;
 use Illuminate\Support\ServiceProvider;
 use League\Fractal\Manager;
 

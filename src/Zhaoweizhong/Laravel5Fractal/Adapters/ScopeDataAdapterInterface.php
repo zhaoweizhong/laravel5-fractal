@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal\Adapters;
+namespace Zhaoweizhong\Laravel5Fractal\Adapters;
 
 /**
  * Class ScopeResponse.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyvelnet\Laravel5Fractal\Commands;
+namespace Zhaoweizhong\Laravel5Fractal\Commands;
 
 use Illuminate\Support\Arr;
 use Symfony\Component\Console\Input\InputArgument;
